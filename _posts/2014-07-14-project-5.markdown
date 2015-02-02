@@ -1,15 +1,14 @@
 ---
-title: Startup Framework
-subtitle: Website Design
+title: My83 保險網
+subtitle: 不管你是連需求都不清楚的保險菜鳥、有基本概念想針對特定問題作釐清，甚至只是想尋找值得信賴的保險業務員，現在除了親友經驗的片面之詞外，也許有機會就上述常面臨的保險難題，獲得更全面、更客觀，也更符合個人需求的回答。
 layout: default
 modal-id: 5
 date: 2014-07-14
-img: startup-framework.png
-thumbnail: startup-framework-thumbnail.png
+img: my83.png
+thumbnail: my83.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+project-date:
+client:
+category:
+description: 舊的世界裡，我們爸媽大多買的是人情保單：選擇不多、資訊又不透明，在複雜的合約與部分業務員微妙卻模糊的話術中，很容易買錯又買貴。新的世界中，我們期待讓軟體力量推動彷彿石器時代的保險市場開始改變。讓資訊更公開透明，幫助消費者以更簡單直覺的方式了解保險、用更便捷的方式媒合優秀業務員與消費者。我們不是保險業務員、也和任何保險公司無關。我們從保戶的立場所成立的保險資訊媒合平台，希望幫助消費者保險買對不買貴，也讓專業的業務員有機會服務更多消費者！
 ---
