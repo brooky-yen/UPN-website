@@ -14,8 +14,41 @@ color:
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Alice
   pic: 1
+  position: 一個熱心雞婆的創業媽媽
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Nancy
+  pic: 2
+  position: 自稱再買就剁手的千手觀音媽媽
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: TingYi
+  pic: 3
+  position: 有少女心的大嬸魂媽媽
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: 乃娟
+  pic: 4
   position: Lead Designer
   social:
     - title: twitter
@@ -25,31 +58,9 @@ people:
     - title: stack-overflow
       url: #
 
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
+- name: Benson
+  pic: 5
+  position: 相信衝浪與創業都需要勇氣與實力的後青春期年輕人
   social:
     - title: twitter
       url: #
