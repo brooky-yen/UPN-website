@@ -4,7 +4,6 @@ $(function(){
 
     var employeeOption = {
             title : {
-                text: '夥伴人數'
             },
             tooltip: {
                 show: 'axis'
@@ -32,7 +31,6 @@ $(function(){
 
         var officeareaOption = {
             title: {
-                text: '辦公室坪數'
             },
             tooltip: {
                 show: 'axis'

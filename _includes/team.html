@@ -7,10 +7,10 @@
                     <h3 class="section-subheading text-muted">－我們的團隊來自 台大／Stanford、清大、政大等，團隊成員的經驗豐富。</h3>
                 </div>
             </div>
-            <div class="row col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-xs-offset-2">
+            <div class="row col-lg-offset-2">
                 {% for member in site.people %}
                 <div>
-                    <div class="team-member col-lg-2 col-md-2 col-sm-3 col-xs-5">
+                    <div class="team-member col-lg-2 col-md-3 col-sm-4 col-xs-6">
                         <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
                         <h4>{{ member.name }}</h4>
                         <p class="text-muted">{{ member.position }}</p>
