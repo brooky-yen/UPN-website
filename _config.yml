@@ -47,20 +47,9 @@ people:
     - title: stack-overflow
       url: #
 
-- name: 乃娟
-  pic: 4
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
 - name: Benson
   pic: 5
-  position: 相信衝浪與創業都需要勇氣與實力的後青春期年輕人
+  position: 期許自己是個做實事衝好浪的年輕人
   social:
     - title: twitter
       url: #
