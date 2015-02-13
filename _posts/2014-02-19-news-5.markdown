@@ -1,0 +1,14 @@
+---
+title: 數位時代
+subtitle: My83保險網－女性技術創業大步走
+layout: default
+modal-id: 5
+date: 2014-02-19
+img: news/5.jpg
+thumbnail: news/5.jpg
+alt: image-alt
+project-date:
+client:
+category: news
+description:
+---

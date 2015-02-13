@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">關於上恩</h2>
-                    <h3 class="section-subheading text-muted">－從用戶角度設計網站功能、從消費者的立場提供溫暖的服務。</h3>
+                    <h3 class="section-subheading text-muted">－從用戶角度設計網站功能，從消費者的立場提供服務。</h3>
                 </div>
             </div>
             <div class="row">
@@ -126,12 +126,13 @@
                 </div>
             </div>
         </div>
-        <br><br><br><br>
-        <div class="col-lg-12 text-center">
-            <h2 class="section-heading">公司成長</h2>
-        </div>
+        <br><br><br>
+
         <div class="container">
             <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">公司成長</h2>
+                </div>
                 <div class="col-md-6 col-sm-6">
                     <div id="employee" style="height:300px;"></div>
                     <h4 class="text-center">夥伴人數</h4>
@@ -140,6 +141,36 @@
                     <div id="officearea" style="height:300px;"></div>
                     <h4 class="text-center">辦公室坪數</h4>
                 </div>
+            </div>
+        </div>
+        <br><br><br>
+
+        <div class="container portfolio">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">媒體報導</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row">
+            {% for post in site.posts %}
+              {% if post.category == 'news' %}
+                <div class="col-md-3 col-sm-4 col-xs-6 portfolio-item">
+                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>{{ post.title }}</h4>
+                        <p class="text-muted">{{ post.subtitle }}</p>
+                    </div>
+                </div>
+                {% endif %}
+            {% endfor %}
             </div>
         </div>
     </section>

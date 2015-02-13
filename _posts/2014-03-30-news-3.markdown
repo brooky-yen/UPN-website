@@ -1,0 +1,14 @@
+---
+title: 數位時代
+subtitle: My83保險網獲創業邦「創新之星」殊榮
+layout: default
+modal-id: 3
+date: 2014-03-30
+img: news/3.jpg
+thumbnail: news/3.jpg
+alt: image-alt
+project-date:
+client:
+category: news
+description:
+---

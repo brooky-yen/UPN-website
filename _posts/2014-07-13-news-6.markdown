@@ -1,0 +1,14 @@
+---
+title: The New York Times
+subtitle: In Fierce Competition, Google Finds Novel Ways to Feed Hiring Machine
+layout: default
+modal-id: 6
+date: 2007-05-28
+img: news/6.jpg
+thumbnail: news/6.jpg
+alt: image-alt
+project-date:
+client:
+category: news
+description:
+---

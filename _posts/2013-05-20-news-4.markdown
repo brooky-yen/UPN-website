@@ -1,0 +1,14 @@
+---
+title: 數位時代
+subtitle: 買對不買貴的保險資訊服務平台
+layout: default
+modal-id: 4
+date: 2013-05-20
+img: news/4.jpg
+thumbnail: news/4.jpg
+alt: image-alt
+project-date:
+client:
+category: news
+description:
+---
