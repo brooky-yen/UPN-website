@@ -10,7 +10,7 @@
           {% for post in site.posts %}
             {% if post.category == 'news' %}
               <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 text-center">
-                  <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive" alt="">
+                  <a href="{{ post.href }}"><img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive" alt=""></a>
                   <div class="portfolio-caption">
                       <a href="{{ post.href }}" target="_blank">
                         <h4>{{ post.title }}</h4>
