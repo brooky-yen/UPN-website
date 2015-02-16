@@ -1,6 +1,6 @@
 ---
 title: Mamilove 媽咪愛
-subtitle: 以成為最值得信賴的媽媽社群平台為努力方向，希望提供讓人想起會嘴角忍不住上揚的暖心服務
+subtitle: 以成為最值得信賴的媽媽社群電商平台為努力方向，希望提供讓人想起會嘴角忍不住上揚的暖心服務
 layout: default
 modal-id: p1
 date: 2014-07-15
