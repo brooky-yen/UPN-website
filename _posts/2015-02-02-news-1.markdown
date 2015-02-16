@@ -1,6 +1,6 @@
 ---
 title: 天下雜誌
-subtitle: 賈伯斯給台灣女孩的忠告：追隨你的心
+subtitle: 賈伯斯給台灣女孩的忠告：<br>追隨你的心
 layout: default
 modal-id: 1
 date: 2015-02-02

@@ -1,6 +1,6 @@
 ---
 title: 數位時代
-subtitle: My83保險網獲創業邦「創新之星」殊榮
+subtitle: My83保險網：<br>獲創業邦「創新之星」殊榮
 layout: default
 modal-id: 3
 date: 2014-03-30

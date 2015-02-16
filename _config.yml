@@ -8,15 +8,15 @@ description: ""
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: fed136
-  secondary: fec503
+  primary: f3b700
+  secondary: e89e00
   secondary-dark: 333
 
 # Team names, titles and social links
 people:
 - name: Alice
   pic: 1
-  position: 一個熱心雞婆的創業媽媽
+  position: 熱心雞婆的<br>創業媽媽
   social:
     - title: twitter
       url: #
@@ -27,7 +27,7 @@ people:
 
 - name: Nancy
   pic: 2
-  position: 自稱再買就剁手的千手觀音媽媽
+  position: 自稱再買就剁手的<br>千手觀音媽媽
   social:
     - title: twitter
       url: #
@@ -38,7 +38,7 @@ people:
 
 - name: TingYi
   pic: 3
-  position: 有少女心的大嬸魂媽媽
+  position: 有少女心的<br>大嬸魂媽媽
   social:
     - title: twitter
       url: #
@@ -49,7 +49,7 @@ people:
 
 - name: Benson
   pic: 5
-  position: 期許自己是個做實事衝好浪的年輕人
+  position: 期許自己是個<br>做實事衝好浪的年輕人
   social:
     - title: twitter
       url: #

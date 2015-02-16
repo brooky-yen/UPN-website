@@ -120,7 +120,6 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #{{ site.color.primary }};
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -135,7 +134,6 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #{{ site.color.primary }};
     color: #fff;
     background-color: #{{ site.color.secondary }};
 }
@@ -172,7 +170,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: rgba(29, 29, 29, 0.83);
 }
 
 .navbar-default .navbar-brand {
@@ -254,7 +252,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: rgba(29, 29, 29, 0.83);;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -284,7 +282,6 @@ header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
-    font-style: italic;
     line-height: 22px;
 }
 
@@ -307,7 +304,6 @@ header .intro-text .intro-heading {
         margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
-        font-style: italic;
         line-height: 40px;
     }
 
@@ -336,7 +332,6 @@ section h3.section-subheading {
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
-    font-style: italic;
     font-weight: 400;
 }
 
@@ -351,19 +346,19 @@ section h3.section-subheading {
     text-transform: none;
 }
 
-.portfolio .portfolio-item {
+#portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
 }
 
-.portfolio .portfolio-item .portfolio-link {
+#portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
 }
 
-.portfolio .portfolio-item .portfolio-link .portfolio-hover {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -375,11 +370,11 @@ section h3.section-subheading {
     background: rgba({{ site.color.primary | hex_to_rgb | join: ',' }}, .9);
 }
 
-.portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
     opacity: 1;
 }
 
-.portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -390,16 +385,16 @@ section h3.section-subheading {
     color: #fff;
 }
 
-.portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
     margin-top: -12px;
 }
 
-.portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-.portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
     margin: 0;
 }
 
-.portfolio .portfolio-item .portfolio-caption {
+#portfolio .portfolio-item .portfolio-caption {
     margin: 0 auto;
     padding: 25px;
     max-width: 400px;
@@ -407,24 +402,23 @@ section h3.section-subheading {
     background-color: #fff;
 }
 
-.portfolio .portfolio-item .portfolio-caption h4 {
+#portfolio .portfolio-item .portfolio-caption h4 {
     margin: 0;
     text-transform: none;
 }
 
-.portfolio .portfolio-item .portfolio-caption p {
+#portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
-    font-style: italic;
 }
 
-.portfolio * {
+#portfolio * {
     z-index: 2;
 }
 
 @media(min-width:767px) {
-    .portfolio .portfolio-item {
+    #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
 }
@@ -466,7 +460,7 @@ section h3.section-subheading {
     float: right;
     position: relative;
     width: 100%;
-    padding: 0 20px 0 100px;
+    padding: 20px 20px 0 100px;
     text-align: left;
 }
 
@@ -506,7 +500,7 @@ section h3.section-subheading {
 
 .timeline>li.timeline-inverted>.timeline-panel {
     float: right;
-    padding: 0 20px 0 100px;
+    padding: 20px 20px 0 100px;
     text-align: left;
 }
 
@@ -555,7 +549,7 @@ section h3.section-subheading {
     .timeline>li .timeline-panel {
         float: left;
         width: 41%;
-        padding: 0 20px 20px 30px;
+        padding: 20px 20px 20px 30px;
         text-align: right;
     }
 
@@ -574,7 +568,7 @@ section h3.section-subheading {
 
     .timeline>li.timeline-inverted>.timeline-panel {
         float: right;
-        padding: 0 30px 20px 20px;
+        padding: 20px 30px 20px 20px;
         text-align: left;
     }
 }
@@ -611,7 +605,7 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-panel {
-        padding: 0 20px 20px 100px;
+        padding: 20px 20px 20px 100px;
     }
 
     .timeline>li .timeline-image {
@@ -625,7 +619,7 @@ section h3.section-subheading {
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
-        padding: 0 100px 20px 20px;
+        padding: 20px 100px 20px 20px;
     }
 }
 
@@ -795,7 +789,6 @@ ul.social-buttons li a:active {
     margin: 20px 0 30px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
-    font-style: italic;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
