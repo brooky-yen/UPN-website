@@ -9,11 +9,11 @@
           <div class="row">
           {% for post in site.posts %}
             {% if post.category == 'news' %}
-              <div class="col-md-3 col-sm-4 col-xs-6">
+              <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 text-center">
                   <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive" alt="">
                   <div class="portfolio-caption">
                       <h4>{{ post.title }}</h4>
-                      <h5 class="text-mute text-lowercase">{{ post.subtitle }}</h5>
+                      <p class="text-muted text-lowercase">{{ post.subtitle }}</p>
                   </div>
               </div>
               {% endif %}
