@@ -1,4 +1,4 @@
-.panel-heading {
+.panel-heading, .team-member img{
   cursor: pointer;
 }
 
