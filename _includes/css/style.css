@@ -1,3 +1,11 @@
 .panel-heading {
   cursor: pointer;
 }
+
+
+.fadeInDown, .fadeInUp {
+  animation-duration: 3s;
+  animation-delay: 0.3s;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 0.3s;
+}

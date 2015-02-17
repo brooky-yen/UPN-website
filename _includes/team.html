@@ -9,9 +9,9 @@
             </div>
             <div class="row col-lg-offset-2">
                 {% for member in site.people %}
-                <div>
-                    <div class="team-member col-lg-2 col-md-3 col-sm-4 col-xs-6">
-                        <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
+                <div  class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                    <div class="team-member">
+                        <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle tooltips" alt="" title="{{ member.experience }}">
                         <h4>{{ member.name }}</h4>
                         <p class="text-muted">{{ member.position }}</p>
 
