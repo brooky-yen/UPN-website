@@ -13,6 +13,7 @@ $(function(){
     contentAsHTML: true,
     theme: 'tooltipster-default',
     touchDevices: false,
-    trigger: 'click'
+    trigger: 'click',
+    maxWidth: 860
   });
 });
