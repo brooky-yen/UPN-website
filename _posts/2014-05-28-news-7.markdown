@@ -1,0 +1,15 @@
+---
+title: ZCOM
+subtitle: My83：做保险业的“世纪佳缘”
+layout: default
+modal-id: 7
+date: 2014-05-01
+img: news/7.jpg
+thumbnail: news/7.jpg
+alt: image-alt
+project-date:
+client:
+category: news
+description:
+href: http://www.zcom.com/article/136291/
+---
