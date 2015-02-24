@@ -16,4 +16,8 @@ $(function(){
     trigger: 'click',
     maxWidth: 860
   });
+
+  $('.team-member img').hover(function(){
+      $(this).toggleClass('pulse animated');
+  });
 });

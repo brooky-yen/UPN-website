@@ -5,8 +5,8 @@
 
 .fadeInDown, .fadeInUp {
   -webkit-animation-duration: 3s;
-  -webkit-animation-delay: 0.5s;
+  -webkit-animation-delay: 0.8s;
 
   animation-duration: 3s;
-  animation-delay: 0.5s;
+  animation-delay: 0.8s;
 }
