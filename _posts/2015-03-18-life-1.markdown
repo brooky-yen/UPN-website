@@ -1,0 +1,8 @@
+---
+title: 背影
+subtitle: 敝公司前陣子搬新家，developer 發現新吧台站著寫 code 不願回座位的宅宅背影一張
+layout: default
+date: 2015-03-18
+img: 1.jpg
+category: life
+---

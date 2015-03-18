@@ -1,0 +1,8 @@
+---
+title: 聚餐
+subtitle: 每月公司聚餐，product / eng 組終於訂到了全台第一火鍋台電勵進火鍋  
+layout: default
+date: 2015-03-18
+img: 4.jpg
+category: life
+---
