@@ -26,6 +26,7 @@
 }
 
 .grid-gallery figcaption h3 {
+	font-size: 1.5em;
 	margin: 0;
 	padding: 0 0 0.5em;
 }
@@ -52,7 +53,7 @@
 }
 
 .grid figure {
-	padding: 15px;
+	padding: 10px;
 	-webkit-transition: opacity 0.2s;
 	transition: opacity 0.2s;
 }
@@ -153,6 +154,7 @@
 }
 
 .slideshow figcaption {
+	text-align: center;
 	padding-bottom: 20px;
 }
 
@@ -161,11 +163,19 @@
 	font-size: 200%;
 }
 
+.slideshow figcaption h4 {
+	font-size: 24px;
+}
+
+.slideshow figcaption h5 {
+	color: #777;
+}
+
 /* Navigation */
 .slideshow nav span {
 	position: fixed;
 	z-index: 1000;
-	color: #fff;
+	color: #f3b700;
 	text-align: center;
 	padding: 3%;
 	cursor: pointer;
@@ -185,9 +195,9 @@
 
 .slideshow nav span.nav-close {
 	top: 70px;
-	left: 0;
+	right: 0;
 	padding: 0.5em 1em;
-	color: #000;
+	color: #fff;
 }
 
 .icon:before,
