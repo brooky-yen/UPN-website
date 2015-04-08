@@ -1,0 +1,15 @@
+---
+title: TVBS新聞台
+subtitle: 滿足1%的人新創品牌<br>「小眾經濟」打天下
+layout: default
+modal-id: 1
+date: 2015-03-19
+img: news/9.jpg
+thumbnail: news/9.jpg
+alt: image-alt
+project-date:
+client:
+category: news
+description:
+href: http://news.tvbs.com.tw/entry/571867
+---

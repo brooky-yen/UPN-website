@@ -1,11 +1,11 @@
 ---
-title: 天下雜誌
-subtitle: 賈伯斯給台灣女孩的<br>忠告：追隨你的心
+title: 蔻蔻早餐
+subtitle: 蔻蔻文創園區<br>張瑜珊&陳品任
 layout: default
 modal-id: 1
-date: 2015-02-02
-img: news/1.jpg
-thumbnail: news/1.jpg
+date: 2015-02-26
+img: news/8.jpg
+thumbnail: news/8.jpg
 alt: image-alt
 project-date:
 client:
