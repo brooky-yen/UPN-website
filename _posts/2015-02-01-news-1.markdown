@@ -1,0 +1,15 @@
+---
+title: 天下雜誌專欄
+subtitle: 張瑜珊／<br>追隨你的心
+layout: default
+modal-id: 1
+date: 2050-02-01
+img: news/1.jpg
+thumbnail: news/10.jpg
+alt: image-alt
+project-date:
+client:
+category: news
+description:
+href: http://opinion.cw.com.tw/blog/profile/318
+---
