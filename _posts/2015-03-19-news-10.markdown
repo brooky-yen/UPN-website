@@ -1,0 +1,15 @@
+---
+title: Womany
+subtitle: 逃離夢幻企業 Google，張瑜珊勇敢創業：「我怕不趕快走，一輩子就只有這樣了」
+layout: default
+modal-id: 1
+date: 2015-05-18
+img: news/11.jpg
+thumbnail: news/11.jpg
+alt: image-alt
+project-date:
+client:
+category: news
+description:
+href: http://womany.net/read/article/7439
+---
