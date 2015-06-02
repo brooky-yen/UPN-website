@@ -174,7 +174,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "微軟正黑體", "黑體", "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "微軟正黑體", "黑體", "Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.color.primary }};
 }
 

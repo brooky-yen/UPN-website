@@ -89,6 +89,18 @@ people:
     - title: stack-overflow
       url: #
 
+- name: Peifu
+  pic: 7
+  position: 泰國長大中文講得像阿六仔的<br>正港台灣人
+  experience: 畢業於 Berkeley MBA 企業管理碩士，大學畢業於泰國朱拉隆功商業管理學系，並考取CFA特許財金分析師執照<br><br>任職於Groupon以及Zalora CEO，也曾在麥肯錫提供管理諮詢服務，並在創投基金公司投資並協助科技公司成長。然而帶給我最大成就感的其實是一手創立了計程車叫車服務APP公司。以上經驗讓我對創業以及管理最大的感觸是：Ideas are important Execution is everything and ultimately it is Teams that win。<br><br>每天早上跑步的習慣讓我活力充沛的迎接創業這條路上大大小小的挑戰。
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
