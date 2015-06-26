@@ -14,7 +14,8 @@ $(function(){
     theme: 'tooltipster-default',
     touchDevices: false,
     trigger: 'click',
-    maxWidth: 860
+    maxWidth: 860,
+    interactive: true
   });
 
   $('.team-member img').hover(function(){
