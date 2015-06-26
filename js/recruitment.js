@@ -15,7 +15,8 @@ $(function(){
     touchDevices: false,
     trigger: 'click',
     maxWidth: 860,
-    interactive: true
+    autoClose: false,
+    hideOnClick: true
   });
 
   $('.team-member img').hover(function(){
